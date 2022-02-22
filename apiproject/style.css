@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+}
+
+.fa-plus-circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    position: fixed;
+}
+
+
+/* #create,
+#update {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+    position: absolute;
+    top: 20%;
+    background-color: lightgray;
+    z-index: 1;
+    font-size: 25px;
+}
+
+#create input {
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#update input {
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#create select {
+    margin-top: 10px;
+}
+
+#update select {
+    margin-top: 10px;
+}
+
+create button {
+    margin-top: 10px;
+}
+
+#update button {
+    margin-top: 10px;
+} */
+
+#create button,
+#update button {
+    margin-left: 40%;
+    padding: 5px;
+}
+
+.ui-dialog {
+    position: absolute !important;
+    height: auto;
+    width: 500px !important;
+    display: block;
+    margin: auto !important;
+    left: -50% !important;
+    right: -50% !important;
+}
+
+.ui-widget-header {
+    border: 3px solid #dddddd;
+    background: #800000;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 0;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Open Sans;
+    font-size: 1.5rem !important;
+}
+
+.ui-widget-content {
+    color: #800000;
+    border-width: 3px !important;
+    border-style: solid;
+    /* border-color: #800000 !important; */
+    background: #f0f2f2;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    color: #000 !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: .3em;
+    top: 38% !important;
+    width: 30px !important;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 30px !important;
+}
+
+.ui-widget-content a {
+    color: #000 !important;
+}
